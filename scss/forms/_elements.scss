@@ -109,14 +109,11 @@ input[type="text"], .woocommerce input[type="email"], .woocommerce input[type="u
     border-color: $invalid-input-border-color;
 }
 
-
 .woocommerce #review_form #respond textarea {
     box-sizing: $comment-textarea-box-sizing;
     width: $comment-textarea-width;
    	height: $comment-textarea-height;
 }
-
-
 
 .woocommerce {
 	.widget_price_filter {
