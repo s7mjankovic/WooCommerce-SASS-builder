@@ -1,0 +1,30 @@
+/*
+/ woo Tables
+*/
+#add_payment_method table.cart td, #add_payment_method table.cart th, .woocommerce-cart table.cart td, .woocommerce-cart table.cart th, .woocommerce-checkout table.cart td, .woocommerce-checkout table.cart th {
+    vertical-align: middle;
+}
+
+.woocommerce {
+	 table {
+	 	&.shop_table {
+	 		border: $table-border;
+		    margin: $table-margin ;
+		    text-align: $table-text-align;
+		    width: $table-width;
+		    border-collapse: $table-border-collapse;
+		    border-radius: $table-border-radius;
+		    th {
+		    	font-weight: $th-font-weight ;
+    			padding: $th-padding;
+		    }
+		    td {
+		    	border-top: $td-border-top;
+			    padding: $td-padding;
+			    &.actions {
+			    	text-align: $td-actions-text-align;
+			    }
+		    }
+		}
+	 }
+}

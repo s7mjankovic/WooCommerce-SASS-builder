@@ -1,0 +1,130 @@
+/* woocommerce single product tabs */
+.woocommerce {
+	div.product {
+		.woocommerce-tabs {
+			ul.wc-tabs {
+				list-style: $ul-list-style;
+			    padding: $ul-padding ;
+			    margin: $ul-margin;
+			    overflow: $ul-overflow ;
+			    position: $ul-position;
+			    li {
+			    	display: $li-display ;
+				    border: $li-border ;
+				    background-color: $li-background-color;
+				    position: $li-position;
+				    z-index: $li-z-index;
+				    border-radius: $li-border-radius;
+				    margin: $li-margin;
+				    padding: $li-padding;
+				    &.active {
+				    	background: $li-active-background;
+					    z-index: $li-active-z-index;
+					    border-bottom-color: $li-active-bor-b-color;
+					    a {
+							padding: $li-active-a-padding ;
+							font-weight: $li-active-font-weight;
+							color: $li-active-color;
+					    }
+				    }
+				    a {
+					    display: $li-a-display;
+						padding: $li-a-display;
+						font-weight: $li-a-font-weight;
+						color: $li-a-color ;
+						text-decoration: $li-a-text-decoration;
+						&:hover {
+    						color: $li-a-hover-color;
+						}
+					}
+			    }
+			}
+
+			.woocommerce-Tabs-panel {
+				    margin: $panel-margin ;
+    				padding: $panel-padding;
+				#reviews {
+					#comments {
+						ol.commentlist {
+							margin: $panel-ol-margin;
+						    width: $panel-ol-width ;
+						    background: $panel-ol-background;
+						    list-style: $panel-ol-list-style;
+							li {
+								padding: $panel-ol-li-padding;
+							    margin: $panel-ol-li-margin;
+							    position: $panel-ol-li-position;
+							    background: $panel-ol-li-background;
+							    border: $panel-ol-li-border;
+							    .comment_container {
+							    	padding : $c-c-padding;
+							    	margin: $c-c-margin;
+							    	background-color: $c-c-bg-color;
+							    	.comment-text {
+							    		margin: $c-txt-margin;
+										border: $c-txt-border;
+										border-radius: $c-txt-border-radius;
+										padding: $c-txt-padding;
+										p.meta {
+											font-size: $c-txt-meta-font-size;
+											margin: $c-txt-meta-margin;
+											color: $c-txt-meta-color;
+											strong {
+												font-weight: $c-meta-name-font-weight;
+											}
+											time {
+
+											}
+										}
+										.description {
+											p {
+												font-size: $c-text-com-font-size;
+												font-weight: $c-text-com-font-weight;
+												color: $c-text-com-color;
+												padding: $c-text-com-padding;
+												margin: $c-text-com-margin;
+											}
+										}
+							    	}
+							    }
+							}
+						}
+					}
+					#review_form_wrapper {
+						#review_form {
+							#respond {
+								h3#reply-title {
+									font-size: $c-r-t-font-size;
+									padding: $c-r-t-padding;
+									margin: $c-r-t-margin;
+									color: $c-r-t-color;
+								}
+								label {
+									color: $c-rat-lab-color;
+									display: $c-rat-lab-display;
+									font-size: $c-rat-lab-font-size;
+									font-weight: $c-rat-lab-font-weight;
+									line-height: $c-rat-lab-line-height;
+									text-transform: $c-rat-lab-text-transform;
+								}
+								p.comment-form-rating {
+									margin: $c-rating-margin;
+								}
+								p.comment-form-comment {
+									margin :  0 0 10px;;
+									#comment {
+										
+									}
+								}
+
+							}
+						}
+					}
+				}
+			}
+
+		}
+	}
+} 
+
+

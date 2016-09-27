@@ -1,0 +1,85 @@
+/*
+/ woocommerce-result-count
+*/
+body {
+	width: $body-width;
+	font-size : $body-font-size;
+ 	font-weight: $body-font-weight;
+ 	line-height: $body-l-height;
+ 	color: $body-color;
+ 	background-color: $body-bg-color;
+ 	font-family: $body-font-family ;
+ 	padding: $body-padding;
+ 	margin: $body-margin;
+}
+a:hover, a:focus, a:active {
+    color: #DFB200;
+    outline: 0;
+}
+h1 , h2 , h3, h4 , h5, h6 {
+	padding: $h-padding;
+	margin: $h-margin;
+}
+body.woocommerce {
+	#content {
+		width: $w-body-width;
+	    margin: $w-body-margin;
+		h1 {
+			font-size: $h1-font-size;
+			padding : $h1-padding;
+			margin  : $h1-margin;
+			color: $h1-color;
+		}
+		h2 {
+			font-size: $h2-font-size;
+			padding : $h2-padding;
+			margin  : $h2-margin;
+			color: $h2-color;
+		}
+		h3 {
+			font-size: $h3-font-size;
+			padding : $h3-padding;
+			margin  : $h3-margin;
+			color: $h3-color;
+		}
+		h4 {
+			font-size: $h4-font-size;
+			padding : $h4-padding;
+			margin  : $h4-margin;
+			color: $h4-color;
+		}
+		h5 {
+			font-size: $h5-font-size;
+			padding : $h5-padding;
+			margin  : $h5-margin;
+			color: $h5-color;
+		}
+		h6 {
+			font-size: $h6-font-size;
+			padding : $h6-padding;
+			margin  : $h6-margin;
+			color: $h6-color;
+		}
+		p {
+			font-size: $p-font-size;
+			margin: $p-margin;
+		}
+		a {
+			
+		}
+		/*ul {
+			margin : $ul-margin;
+			padding : $ul-padding;
+			list-style : $ul-list-style;
+			clear : $ul-clear;
+		}
+		li {
+			list-style: $li-list-style;
+			display: $li-display;
+		}
+*/
+	}
+    
+
+}
+

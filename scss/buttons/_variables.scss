@@ -1,0 +1,122 @@
+/*
+/ Buttons customize 
+*/   
+/*All buttons*/
+$buttons-margin                 : 0;
+$buttons-font-size              : 100%;
+$buttons-l-height               : 1;
+$buttons-cursor                 : pointer;
+$buttons-txt-decor              : none;
+$buttons-overflow               : visible;
+$buttons-position               : relative;
+$buttons-padding                : .618em 1em;
+$buttons-font-weight            : 700;
+$buttons-border-radius          : 3px;
+$buttons-left                   : auto;
+$buttons-color                  : rgba(81, 81, 81, 1);
+$buttons-bg_color               : rgba(235, 233, 235, 1);
+$buttons-border                 : 0;
+$buttons-white-space            : nowrap;
+$buttons-display                : inline-block;
+$buttons-bg-image               : none;
+$buttons-box-shadow             : none;
+$buttons-txt-shadow             : none;
+/* Hover */
+$buttons-bg_color-hov           : rgba(235, 233, 235, 1);
+$buttons-color-hov              : rgba(81, 81, 81, 1);
+$buttons-border-hov             : 0;
+$buttons-opacity-hov            : .8;  
+
+
+/*add to cart button - All products page*/
+$b-bg_color-add                 : rgba(235, 233, 235, 1);
+$b-color-add                    : rgba(81, 81, 81, 1);
+$b-padding-add                  : .618em 1em;
+$b-font-weight-add              : 700;
+$b-font-size-add                : 13px;
+$b-border-add                   : none;
+/* Hover */
+$b-bg_color-add-hov             : rgba(235, 233, 235, 1);
+$b-color-add-hov                : rgba(81, 81, 81, 1);
+$b-border-add-hov               : 0;
+$b-opacity-add-hov              : .8; 
+
+
+/*select opitons of product button - All products page*/
+$b-bg_color-var                 : rgba(235, 233, 235, 1);;
+$b-color-var                    : rgba(81, 81, 81, 1);
+$b-padding-var                  : .618em 1em;
+$b-font-weight-var              : 700;
+$b-font-size-var                : 13px;
+$b-border-add-var               : none;
+/* Hover */
+$b-bg_color-var-hov             : rgba(235, 233, 235, 1);
+$b-color-var-hov                : rgba(81, 81, 81, 1);
+$b-border-var-hov               : 0;
+$b-opacity-var-hov              : .8; 
+
+
+/*
+/  apply coupon, update cart, view cart
+*/
+$b-bg_color-other               : rgba(235, 233, 235, 1);
+$b-color-other                  : rgba(255, 255, 255, 1);
+$b-padding-other                : 10px 16px 11px;
+$b-font-weight-other            : 700;
+$b-font-size-other              : 13px;
+$b-border-other                 : none;
+$b-l-height-other               : 1.2;
+/* Hover */
+$b-bg_color-other-hov           : rgba(204, 204, 204, 1);
+$b-color-other-hov              : rgba(81, 81, 81, 1);
+$b-border-other-hov             : 0;
+$b-opacity-other-hov            : .8; 
+
+
+/*
+/ add to cart button - Single product page
+*/
+$b-bg_color-add-s               : rgba(164, 100, 151, 1);
+$b-color-add-s                  : rgba(255, 255, 255, 1);
+$b-padding-add-s                : .618em 1em;
+$b-font-weight-add-s            : 700;
+$b-font-size-add-s              : 15px;
+$b-border-add-s                 : none;
+/* Hover */
+$b-bg_color-add-s-hov           : rgba(164, 100, 151, 1);
+$b-color-add-s-hov              : rgba(255, 255, 255, 1);
+$b-border-add-s-hov             : 0;
+$b-opacity-add-s-hov            : .8; 
+
+
+/*
+/  Checkout button, add_payment method
+*/
+$b-bg_color-checkout            : rgba(164, 100, 151, 1);
+$b-color-checkout               : rgba(255, 255, 255, 1);
+$b-display-checkout             : block;
+$b-font-size-checkout           : 1.25em;
+$b-font-padding-checkout        : 1em;
+/* Hover */
+$b-bg_color-checkout-hov        : rgba(164, 100, 151, 1);
+$b-color-checkout-hov           : rgba(255, 255, 255, 1);
+$b-border-checkout-hov          : 0;
+$b-opacity-checkout-hov         : .8; 
+
+
+/*
+/  Comment submit
+*/
+/* input submit wrapper */
+$com-submit-w-text-align        : left;
+/* input submit */
+$com-submit-width               : auto;
+$com-submit-bg-color            : rgba(235, 233, 235, 1);
+$com-submit-color               : rgba(255, 255, 255, 1);
+$com-submit-font-size           : 13px;
+$com-submit-line-height         : 1.2;
+$com-submit-padding             : 10px 16px 11px;
+$com-submit-border              : none;
+$com-submit-font-weight         : 700;
+
+

@@ -1,0 +1,154 @@
+/*
+/ all buttons
+*/
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    font-size: $buttons-font-size;
+    margin: $buttons-margin ;
+    line-height: $buttons-l-height;
+    cursor: $buttons-cursor;
+    position: $buttons-position;   
+    text-decoration: $buttons-txt-decor;
+    overflow: $buttons-overflow;
+    padding: $buttons-padding;
+    font-weight: $buttons-font-weight;
+    border-radius: $buttons-border-radius;
+    left: $buttons-left ;
+    color: $buttons-color;
+    background-color: $buttons-bg_color;
+    border: $buttons-border ;
+    white-space: $buttons-white-space;
+    display: $buttons-display;
+    background-image: $buttons-bg-image;
+    box-shadow: $buttons-box-shadow ;
+    -webkit-box-shadow: none;
+    text-shadow: $buttons-txt-shadow ;
+    -webkit-font-smoothing: antialiased;
+}
+    /* HOVER */
+    .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
+        background-color: $buttons-bg_color-hov;
+        color: $buttons-color-hov;
+        border: $buttons-border-hov ;
+        opacity: $buttons-opacity-hov ;
+    }
+
+
+/*
+/ add to cart button - All products page
+*/
+.woocommerce ul.products li.product .button {
+	padding: $b-padding-add;
+    font-weight: $b-font-weight-add;
+    color: $b-color-add;
+    background-color: $b-bg_color-add;
+    font-size: $b-font-size-add;
+    border: $b-border-add;
+}
+    /* HOVER */
+    .woocommerce ul.products li.product .button:hover {
+        background-color: $b-bg_color-add-hov;
+        color: $b-color-add-hov;
+        border: $b-border-add-hov;
+        opacity: $b-opacity-add-hov;
+    }
+
+
+/*
+/ select opitons of product button - All products page
+*/
+.woocommerce ul.products li.product .product_type_variable {
+	padding: $b-padding-var;
+    font-weight: $b-font-weight-var;
+    color: $b-color-var;
+    background-color: $b-bg_color-var;
+    font-size: $b-font-size-var;
+    border: $b-border-add-var;
+}
+    /* HOVER */
+    .woocommerce ul.products li.product .product_type_variable:hover {
+        background-color: $b-bg_color-var-hov;
+        color: $b-color-var-hov;
+        border: $b-border-var-hov;
+        opacity: $b-opacity-var-hov;
+    }
+
+
+/*
+/  apply coupon, update cart, view cart
+*/
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit:focus, .woocommerce a.button:focus, .woocommerce button.button:focus, .woocommerce input.button:focus, .woocommerce .cart .button, .woocommerce .cart input.button, .woocommerce .woocommerce-message .wc-forward {
+	background-color: $b-bg_color-other;
+    color: $b-color-other;
+    font-size: $b-font-size-other;
+    line-height: $b-l-height-other;
+    padding: $b-padding-other;
+    border : $b-border-other ;
+    font-weight: $b-font-weight-other ;
+}
+    /* HOVER */
+    .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
+        background-color: $b-bg_color-other-hov;
+        color: $b-color-other-hov;
+        border: $b-border-other-hov;
+        opacity: $b-opacity-other-hov;
+    }
+
+
+/*
+/ add to cart button - Single product page
+*/
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    padding           :$b-padding-add-s;
+    font-weight       :$b-font-weight-add-s;
+    color             :$b-color-add-s;
+    background-color  :$b-bg_color-add-s;
+    font-size         :$b-font-size-add-s;
+    border            :$b-border-add-s; 
+}
+    /* HOVER */
+    .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+        background-color: $b-bg_color-add-s-hov;
+        color: $b-color-add-s-hov;
+        border: $b-border-add-s-hov;
+        opacity: $b-opacity-add-s-hov;
+    }
+
+
+/*
+/  Checkout button, add_payment method
+*/
+#add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
+	background-color :$b-bg_color-checkout;
+	color            :$b-color-checkout ;
+    display          :$b-display-checkout;
+    font-size        :$b-font-size-checkout;
+    padding          :$b-font-padding-checkout ;
+}
+    /* HOVER */
+    #add_payment_method .wc-proceed-to-checkout a.checkout-button:hover, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button:hover {
+        background-color: $b-bg_color-checkout-hov;
+        color: $b-color-checkout-hov;
+        border: $b-border-checkout-hov;
+        opacity: $b-opacity-checkout-hov;
+    }
+
+
+
+/*
+/  Comment submit
+*/
+.woocommerce #review_form #respond .form-submit {
+    text-align: $com-submit-w-text-align;
+    input[type="submit"] {
+        width: $com-submit-width;
+        background-color: $com-submit-bg-color;
+        color: $com-submit-color;
+        font-size: $com-submit-font-size;
+        line-height: $com-submit-line-height;
+        padding: $com-submit-padding;
+        border: $com-submit-border;
+        font-weight: $com-submit-font-weight;
+    }
+}
+
+ 

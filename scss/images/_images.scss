@@ -1,0 +1,67 @@
+/*
+/ all wooCommerece  image
+*/
+.woocommerce img {
+	width: $img-width;
+	max-width: $img-max-width;
+    height: $img-height;
+    display: $img-display;
+    margin : $img-margin;
+    box-shadow: $img-box-shadow;
+    border-radius: $img-border-radius;
+    border : $img-border;
+}
+
+/*
+/ all products page image
+*/
+.woocommerce ul.products li.product a img {
+    margin: $img-single-product-margin;
+}
+
+/*
+/ single product page main image
+*/
+.woocommerce div.product div.images img {
+
+}
+
+/*
+/ WIGHET thumb image
+*/
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img {
+    float: $img-widget-float;
+    margin-left: $img-widget-margin-left;
+    width: $img-widget-width;
+    height: $img-widget-height;
+    box-shadow: $img-widget-box-shadow;
+}
+
+/*
+/ woo comentar avatar image
+*/
+.woocommerce #reviews #comments ol.commentlist li img.avatar {
+    float: $img-com-avatar-float;
+    position: $img-com-avatar-position;
+    top: $img-com-avatar-top;
+    left: $img-com-avatar-left ;
+    padding: $img-com-avatar-padding;
+    width: $img-com-avatar-width;
+    height: $img-com-avatar-height ;
+    background: $img-com-avatar-bg;
+    border: $img-com-avatar-border;
+    margin: $img-com-avatar-margin;
+    box-shadow: $img-com-avatar-box-shadow;
+}
+
+
+
+/*
+/ cart table image
+*/
+.woocommerce #content table.cart img, .woocommerce table.cart img, .woocommerce-page #content table.cart img, .woocommerce-page table.cart img {
+    height: $c-t-height;
+    width: $c-t-width;
+    box-shadow: $c-t-box-shadow;
+}
+

@@ -1,0 +1,110 @@
+/* woocommerce text elements */   
+.woocommerce {
+	width: $woo-width;
+	font-size : $woo-font-size;
+ 	font-weight: $woo-font-weight;
+ 	line-height: $woo-l-height;
+ 	color: $woo-color;
+ 	background-color: $woo-bg-color;
+ 	font-family: $woo-font-family ;
+ 	padding: $woo-padding;
+ 	margin: $woo-margin;
+	/* woocommerce-breadcrumb */
+	.woocommerce-breadcrumb {
+	    margin: $w-bredcrumbs-margin;
+	    padding: $w-bredcrumbs-padding;
+	    font-size: $w-bredcrumbs-font-size;
+	    color: $w-bredcrumbs-color ;
+	    a {
+	    	color: $w-bredcrumbs-a-color;
+	    }
+
+	}
+	/* woocommerce- on sale */
+	span.onsale {
+	    min-height: $w-sale-min-height;
+	    min-width: $w-sale-min-width;
+	    padding: $w-sale-padding;
+	    font-weight: $w-sale-font-weight;
+	    position: $w-sale-position;
+	    text-align: $w-sale-text-align;
+	    line-height: $w-sale-l-height;
+	    top: $w-sale-top;
+	    left: $w-sale-left ;
+	    margin: $w-sale-margin;
+	    border-radius: $w-sale-border-radius;
+	    background-color: $w-sale-background-color;
+	    color: $w-sale-color;
+	    font-size: $w-sale-font-size;
+	    -webkit-font-smoothing: antialiased;
+	}
+	/* product - all products page */
+	ul.products {
+		li.product {
+			h3 {
+			    padding: $title-padding;
+			    margin: $title-margin;
+			    font-size: $title-font-size;
+			    
+			}
+			/* product prices- all products page */
+			/* old price */
+			.price {
+				    color: $price-color;
+				    display: $price-display ;
+				    font-weight: $price-font-weight;
+				    margin-bottom: $price-margin-bottom;
+				    font-size: $price-font-size;
+				    del {
+
+				    }
+			}
+		}
+	} 
+	/* product - single product page */
+	.product {
+		.summary {
+			h1.product-title {
+				margin: $s-title-margin;
+    			padding: $s-title-padding;
+    			font-size: $s-title-font-size;
+    			color: $s-title-color;
+    			font-weight: $s-title-font-weight;
+			}
+			p {
+				font-size: $s-desc-font-size;
+				font-weight: $s-desc-font-weight ;
+				line-height: $s-desc-line-height;
+				color: $s-desc-color ;
+				background-color: $s-desc-background-color;
+				padding: $s-desc-padding;
+				margin: $s-desc-margin ;
+			}
+			p.price {
+				margin:$s-price-margin;
+				padding: $s-price-padding;
+				color: $s-price-color ;
+			    font-size: $s-price-font-size;
+			    font-weight: $s-price-font-weight;
+			    text-align: $s-price-text-align;
+			}
+			.product_meta {
+				font-size : $s-meta-font-size;
+				color: $s-meta-color ;
+				font-weight: $s-meta-font-weight;
+				a {
+					font-size: $s-meta-a-font-size ;
+					color: $s-meta-a-color ;
+					font-weight: $s-meta-a-font-weight;
+					margin: $s-meta-a-margin;
+					padding: $s-meta-a-padding;
+				}
+			}
+		}
+	} 
+}
+
+
+
+
+

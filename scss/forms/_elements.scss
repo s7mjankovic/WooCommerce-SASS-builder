@@ -1,0 +1,166 @@
+/*
+/ some inputs, select 
+*/
+input[type="text"], .woocommerce input[type="email"], .woocommerce input[type="url"], .woocommerce input[type="password"], .woocommerce input[type="search"], .woocommerce input[type="tel"], .woocommerce select , .woocommerce textarea, .select2-container .select2-choice {
+    color: $form-color;
+    background-color: $form-bg-color;
+    font: $form-font-weight $form-font-size/$form-l-height $form-font-family;
+    position: $form-position;
+    border: $form-border;
+    box-sizing: $form-box-sizing;
+    padding: $form-padding;
+    vertical-align: $form-vertical-align;
+    border-radius : $form-border-radius;
+    height : $form-height;
+    margin: $form-margin;
+    outline: $form-margin;
+    -webkit-font-smoothing: antialiased;
+}
+/*
+/ Ordeering select 
+*/
+.woocommerce select {
+    padding: $form-select-padding;
+    font: $form-font-weight $form-font-size/$form-select-l-height $form-font-family;
+    vertical-align: $form-select-v-align;
+}
+	.select2-drop-active {
+	    width: $select-dropdown-width;
+	    margin-top: $select-dropdown-margin-top ;
+	    position: $select-dropdown-position ;
+	    z-index: $select-dropdown-z-index ;
+	    top: $select-dropdown-top;
+	    background: $select-dropdown-background;
+	    color: $select-dropdown-color;
+	    border: $select-dropdown-border ;
+	    border-top: $select-dropdown-border-top;
+	    border-radius: $select-dropdown-border-radaius;
+	    border-top: $form-select-drop-border-b;
+	    .select2-search input {
+		    width: $select-search-width;
+		    height: $select-search-height;
+		    padding: $select-search-padding;
+		    margin: $select-search-margin;
+		    outline: $select-search-outline;
+		    font-family: $select-search-font-family;
+		    font-size: $select-search-font-size;
+		    border: $select-search-border;
+		    -webkit-box-shadow: none;
+		    box-shadow: $select-search-box-shadow;
+		    background: $select-search-background;
+		}
+	    ul.select2-results {
+		    max-height: $select-ul-max-height;
+		    padding: $select-ul-padding;
+		    margin: $select-ul-margin;
+		    position: $select-ul-position;
+		    overflow-x: $select-ul-overflow-x;
+		    overflow-y: $select-ul-overflow-y ;
+		    -webkit-tap-highlight-color: transparent;
+		    background: $select-ul-background;
+		    li {
+		    	font-size: $select-li-font-size;
+		    	list-style: $select-li-style;
+			    display: $select-li-display;
+			    background-image: $select-li-bg-image s;
+			    margin: $select-li-margin;
+			    padding: $select-li-padding;
+			    .select2-result-label {
+			    	padding: $select-li-d-padding;
+				    margin: $select-li-d-margin;
+				    cursor: $select-li-d-cursor;
+				    min-height: $select-li-d-min-height;
+			    }
+		    }
+		}
+	}
+
+
+/*
+/ textarea
+*/
+.woocommerce textarea {
+	height: $form-texarea-height;
+}
+
+
+/*
+/ Quantity input 
+*/
+.woocommerce .quantity .qty {
+    width: $form-qty-width;
+    text-align: $form-qty-text-align;
+    font-size: $form-qty-font-size;
+    height: $form-qty-height;
+    line-height: $form-qty-l-height;
+    padding: $form-qty-padding;
+}
+
+/*
+/ Validated input
+*/
+.woocommerce form .form-row.woocommerce-validated .select2-container, .woocommerce form .form-row.woocommerce-validated input.input-text, .woocommerce form .form-row.woocommerce-validated select {
+    border-color: $valid-input-border-color;
+}
+/*
+/ Invalid input
+*/
+.woocommerce form .form-row.woocommerce-invalid .select2-container, .woocommerce form .form-row.woocommerce-invalid input.input-text, .woocommerce form .form-row.woocommerce-invalid select {
+    border-color: $invalid-input-border-color;
+}
+
+
+.woocommerce #review_form #respond textarea {
+    box-sizing: $comment-textarea-box-sizing;
+    width: $comment-textarea-width;
+   	height: $comment-textarea-height;
+}
+
+
+
+.woocommerce {
+	.widget_price_filter {
+		.ui-widget-content {
+		    border-radius: $w-content-border-radius;
+		    background-color: $w-content-background-color;
+		    border: $w-content-border ;
+		    margin: $w-content-margin;
+		}
+		.ui-slider-horizontal {
+		    height: $w-horizont-height;
+		    .ui-slider-range {
+			    top: $w-horizont-ui-top;
+			    height: $w-horizont-ui-height;
+			}
+		}
+		.ui-slider {
+		    position: $w-ui-position;
+		    text-align: $w-ui-text-align;
+		    margin-left: $w-ui-margin-left;
+		    margin-right: $w-ui-margin-right;
+		    .ui-slider-range {
+			    position: $w-ui-rang-position;
+			    z-index: $w-ui-rang-z-index;
+			    font-size: $w-ui-rang-font-size;
+			    display: $w-ui-rang-display;
+			    border: $w-ui-rang-border;
+			    border-radius: $w-ui-rang-border-radius;
+			    background-color: $w-ui-rang-background-color;
+			}
+			.ui-slider-handle {
+			    position: $w-ui-handle-position;
+			    z-index: $w-ui-handle-z-index;
+			    width: $w-ui-handle-width;
+			    height: $w-ui-handle-height;
+			    background-color: $w-ui-handle-background-color;
+			    border-radius: $w-ui-handle-border-radius;
+			    cursor: $w-ui-handle-cursor;
+			    outline: $w-ui-handle-outline;
+			    top: $w-ui-handle-top;
+			    margin-left: $w-ui-handle-margin-left;
+			}
+		}
+	}
+}
+
+

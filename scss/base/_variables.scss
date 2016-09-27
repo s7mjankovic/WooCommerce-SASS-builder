@@ -1,0 +1,72 @@
+/*
+/ Variables text elements
+*/
+
+// Body start
+$body-width                     : 100%;
+$body-font-size                 : 16px;
+$body-font-weight               : normal;
+$body-l-height                  : 1.2;
+$body-color                     : rgba(65, 65, 65, 1);
+$body-bg-color                  : rgba(255, 255, 255, 1);
+$body-font-family               : 'Lato','Open Sans', sans-serif;
+$body-padding                   : 0;
+$body-margin                    : 0;
+// h1 , h2 , h3, h4 , h5, h6 
+$h-padding                      : 0;
+$h-margin                       : 15px 0 10px;
+$h-color                        : $body-color;
+
+
+/*
+/ wooCommerce
+*/
+$w-body-width                   : 96%;
+$w-body-margin                  : 0 2%;
+
+// heading
+$h1-font-size                   : 2em;
+$h1-padding                     : 0;
+$h1-margin                      : 0  0 10px 0;
+$h1-color			            : $body-color;
+
+$h2-font-size                   : 1.5em;
+$h2-padding                     : 0;
+$h2-margin                      : 15px 10px;
+$h2-color 			            : $body-color;
+
+$h3-font-size                   : 1.2em;
+$h3-padding                     : 0;
+$h3-margin                      : 15px 10px;
+$h3-color 			            : $body-color;
+
+$h4-font-size                   : 1em;
+$h4-padding                     : 0;
+$h4-margin                      : 15px 10px;
+$h4-color			            : $body-color;
+
+$h5-font-size                   : .83em;
+$h5-padding                     : 0;
+$h5-margin                      : 15px 10px;
+$h5-color			            : $body-color;
+
+$h6-font-size                   : .67em;
+$h6-padding                     : 0;
+$h6-margin                      : 15px 10px;
+$h6-color 	     	            : $body-color;
+
+// paragraph
+$p-font-size                    : $body-font-size;
+$p-margin                       : 0 0 15px 0;
+
+// links
+
+// lists UL
+$ul-margin                      : 0 0 1em;
+$ul-padding                     : 0;
+$ul-list-style                  : none;
+$ul-clear                       : both;
+// lists LI
+$li-list-style                  : none;
+$li-display                     : list-item;
+

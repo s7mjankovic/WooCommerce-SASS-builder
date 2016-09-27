@@ -1,0 +1,74 @@
+/*
+/ star rating 
+*/
+$star-all-float                 : right;
+$star-all-overflow              : hidden;
+$star-all-position              : relative;
+$star-all-height                : 1em;
+$star-all-l-height              : 1;
+$star-all-font-size             : 1em;
+$star-all-width                 : 5.4em;
+$star-all-font-family           : star;
+$star-all-color                 : rgba(65, 65, 65, 1);
+
+
+/*
+/ star rating comment
+*/
+/* star rating a */
+$star-a-position                : relative;
+$star-a-height                  : 1em;
+$star-a-width                   : 1em;
+$star-a-text-indent             : -999em;
+$star-a-display                 : inline-block;
+$star-a-text-decoration         : none;
+$star-a-font-size               : 1em;
+$star-a-color                   : $star-all-color;
+/* star rating a:before; */
+$star-a-b-display               : block;
+$star-a-b-position              : absolute;
+$star-a-b-top                   : 0;
+$star-a-b-left                  : 0;
+$star-a-b-width                 : 1em;
+$star-a-b-height                : 1em;
+$star-a-b-line-height           : 1;
+$star-a-b-font-family           : WooCommerce;
+$star-a-b-text-indent           : 0;
+
+
+/*
+/ star rating - all products page
+*/
+/* .price  */
+$star-font-size                 : .857em;
+$star-display                   : block;
+$star-margin                    : 0 0 .5em;
+$star-float                     : none;
+
+/* span */
+$star-span-overflow             : hidden;
+$star-span-float                : left;
+$star-span-top                  : 0;
+$star-span-left                 : 0;
+$star-span-position             : absolute;
+$star-span-padding-top          : 1.5em;
+$star-span-color                : $star-all-color;
+
+/*
+/ star rating - single product page
+*/
+/* .woocommerce-product-rating  */
+$star-s-wrapp-margin-bottom     : 1.618em;
+$star-s-wrapp-l-height          : 2;
+/* .star-rating  */
+$star-s-margin                  : .5em 4px 0 0;
+$star-s-float                   : left;
+$star-s-color                   : rgba(65, 65, 65, 1);
+/* .woocommerce-review-link  */
+$star-s-link-color              : rgba(65, 65, 65, 1);
+$star-s-link-bg-color           : transparent;
+$star-s-link-text-decor         : none;
+
+
+
+			

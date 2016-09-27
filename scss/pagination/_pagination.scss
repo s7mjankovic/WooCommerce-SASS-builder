@@ -1,0 +1,65 @@
+
+/*.woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span*/
+
+
+.woocommerce {
+	nav.woocommerce-pagination {
+		text-align: $nav-text-align;
+		display: $nav-display ;
+		box-sizing: $nav-box-sizing;
+		ul {
+			border: $ul-border ;
+		    display: $ul-display;
+		    margin-left: $ul-margin-left;
+		    margin-right: $ul-margin-right;
+		    width: $ul-width;
+		    white-space: $ul-white-space;
+		    padding: $ul-padding;
+		    li {
+		    	display: $li-display;
+		    	float: $li-float;
+		    	border-right: $li-border-right;
+			    padding: $li-padding;
+			    margin: $li-margin;
+			    overflow: $li-overflow;
+			    box-sizing: $li-box-sizing;
+			    span {
+			    	&.page-numbers {
+					    height: $span-height;
+					    text-align: $span-text-align;
+					    vertical-align: $span-vertical-align;
+					    width: $span-width ;
+					    border-radius: $span-border-radius;  
+					    background-color: $span-background;
+					    &.current {
+						    border: $span-cur-border;
+	    					color: $span-cur-color;
+						} 
+					}    
+				}
+				a {
+					margin: $a-margin ;
+				    text-decoration: $a-text-decoration;
+				    line-height: $a-line-height;
+				    font-size: $a-font-size ;
+				    font-weight: $a-font-weight;
+				    padding: $a-padding;
+				    min-width: $a-min-width;
+				    display: $a-display;
+				    &.page-numbers {
+					    border: $a-border ;
+					    background-color: $a-background-color;
+					    color: $a-color ;
+					    height: $a-height;
+					    text-align: $a-text-align;
+					    vertical-align: $a-vertical-align;
+					    width: $a-width;
+					    border-radius: $a-border-radius;
+					}
+				}
+		    }
+		}
+
+	}
+		
+}

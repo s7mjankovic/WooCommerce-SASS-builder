@@ -1,0 +1,101 @@
+/*
+/ single product tabs
+*/
+
+/* ul.tabs */
+$ul-list-style                  : none;
+$ul-padding                     : 0 0 0 1em;
+$ul-margin                      : 0 0 1.618em;
+$ul-overflow                    : hidden;
+$ul-position                    : relative;
+
+/* li */
+$li-display                     : inline-block;
+$li-border                      : 1px solid rgba(211, 206, 210, 1);
+$li-background-color            : rgba(235, 233, 235, 1);
+$li-position                    : relative;
+$li-z-index                     : 0;
+$li-border-radius               : 4px 4px 0 0;
+$li-margin                      : 0 -5px;
+$li-padding                     : 0 1em;
+
+/* li.active  */		    
+$li-active-background           : rgba(255, 255, 255, 1);
+$li-active-z-index              : 2;	
+$li-active-bor-b-color          : rgba(255, 255, 255, 1);		    
+
+/* li a */
+$li-a-display                   : inline-block;
+$li-a-padding                   : .5em 0;
+$li-a-font-weight               : 700;
+$li-a-color                     : rgba(81, 81, 81, 1);
+$li-a-text-decoration           : none;
+
+/* li.active a */
+$li-active-a-padding            : .5em 0;
+$li-active-font-weight          : 700;
+$li-active-color                : rgba(81, 81, 81, 1);
+
+/* li a:hover */
+$li-a-hover-color               : rgba(107, 107, 107, 1);
+
+/*.woocommerce-Tabs-panel */
+$panel-margin                   : 0 0 2em;
+$panel-padding                  : 0;
+
+/* panel ol.commentlist */
+$panel-ol-margin                : 0;
+$panel-ol-width                 : 100%;
+$panel-ol-background            : 0 0;
+$panel-ol-list-style            : none;
+
+/* panel ol.commentlist li */
+$panel-ol-li-padding            : 0;
+$panel-ol-li-margin             : 0 0 20px;
+$panel-ol-li-position           : relative;
+$panel-ol-li-background         : 0;
+$panel-ol-li-border             : 0;
+
+/* .comment_container */
+$c-c-padding                    : 0;
+$c-c-margin                     : 0;
+$c-c-bg-color                   : none;
+
+/* .comment_text */
+$c-txt-margin                   : 0 0 0 50px;
+$c-txt-border                   : 1px solid rgba(228, 225, 227, 1);
+$c-txt-border-radius            : 4px;
+$c-txt-padding                  : 1em 1em 0;
+
+/* .comment_text meta */
+$c-txt-meta-font-size           : .83em;
+$c-txt-meta-margin              : 0 0 1em;
+$c-txt-meta-color               : rgba(119, 119, 119, 1);
+
+/* .comment_text meta name */
+$c-meta-name-font-weight        : 700;
+
+/* .comment_text comment */
+$c-text-com-font-size           : 16px;
+$c-text-com-font-weight         : normal;
+$c-text-com-color               : inherit;
+$c-text-com-padding             : 0;
+$c-text-com-margin              : 0 0 15px 0;
+
+/* .comment reply title */
+$c-r-t-font-size                : 1.2em;
+$c-r-t-padding                  : 0;
+$c-r-t-margin                   : 15px 10px;
+$c-r-t-color                    : inherit;
+
+/* .comment rating */
+$c-rating-margin                : 0 0 10px 0;
+
+/* .comment rating label */
+$c-rat-lab-color                : rgba(112, 112, 112, 1);
+$c-rat-lab-display              : block;
+$c-rat-lab-font-size            : 15px;
+$c-rat-lab-font-weight          : 700;
+$c-rat-lab-line-height          : 1.5;
+$c-rat-lab-text-transform       : uppercase;
+								

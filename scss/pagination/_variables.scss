@@ -1,0 +1,55 @@
+/*
+/ nav.woocommerce-pagination 
+*/
+$nav-text-align                 : center;
+$nav-display                    : block;
+$nav-box-sizing                 : border-box;
+
+/* ul */
+$ul-border                      : none;
+$ul-display                     : block;
+$ul-margin-left                 : auto;
+$ul-margin-right                : auto;
+$ul-width                       : 100%;
+$ul-white-space                 : nowrap;
+$ul-padding                     : 0;
+
+/* li */
+$li-display                     : inline-block;
+$li-float                       : none;
+$li-border-right                : 1px solid #d3ced2;
+$li-padding                     : 0;
+$li-margin                      : 0;
+$li-overflow                    : hidden;
+$li-box-sizing                  : border-box;
+
+/* li span*/
+$span-height                    : 44px;
+$span-text-align                : center;
+$span-vertical-align            : middle;
+$span-width                     : 44px;
+$span-border-radius             : 0;
+$span-background                : #ebe9eb;
+/* li span current */
+
+$span-cur-border                : 1px solid #028484;
+$span-cur-color                 : #028484;
+
+/* li a*/
+$a-margin                       : 0;
+$a-text-decoration              : none;
+$a-line-height                  : 1;
+$a-font-size                    : 1em;
+$a-font-weight                  : 400;
+$a-padding                      : .5em;
+$a-min-width                    : 1em;
+$a-display                      : block;
+/* li a.page-numbers*/
+$a-border                       : 1px solid #cccccc;
+$a-background-color             : #ffffff;
+$a-color                        : #565656;
+$a-height                       : 44px;
+$a-text-align                   : center;
+$a-vertical-align               : middle;
+$a-width                        : 44px;
+$a-border-radius                : 0;
