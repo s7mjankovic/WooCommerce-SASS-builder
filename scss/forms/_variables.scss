@@ -107,7 +107,7 @@ $comment-textarea-height        : 75px;
 */
 /* widget_price_filter */
 $w-content-border-radius        : 1em;
-$w-content-background-color     : #602053;
+$w-content-background-color     : rgba(96, 32, 83, 1);
 $w-content-border               : 0;
 $w-content-margin               : 1em;
 /* ui-slider-horizontal */
@@ -128,14 +128,14 @@ $w-ui-rang-font-size            : .7em;
 $w-ui-rang-display              : block;
 $w-ui-rang-border               : 0;
 $w-ui-rang-border-radius        : 1em;
-$w-ui-rang-background-color     : #a46497;
+$w-ui-rang-background-color     : rgba(164, 100, 151, 1);
 
 /*  ui-slider-handle */
 $w-ui-handle-position           : absolute;
 $w-ui-handle-z-index            : 2;
 $w-ui-handle-width              : 1em;
 $w-ui-handle-height             : 1em;
-$w-ui-handle-background-color   : #a46497;
+$w-ui-handle-background-color   : rgba(164, 100, 151, 1);
 $w-ui-handle-border-radius      : 1em;
 $w-ui-handle-cursor             : ew-resize;
 $w-ui-handle-outline            : 0;
